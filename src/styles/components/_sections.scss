@@ -1,0 +1,86 @@
+.contenedor-nav{
+    width: 100vw;
+    position: absolute;
+    z-index: 9999;
+    top: 5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-left: 6em;
+}
+.jonaxmc{
+    width: 13em;
+}
+
+.svg-logo{
+    transition: fill .6s ease;
+}
+.flat-button{
+    margin-right: 6em;
+    cursor: pointer;
+}
+.menu{
+    width: 3.2em;
+}
+.close{
+    width: 2.2em;
+    margin-right: .3em;
+}
+.section-home {
+    background: linear-gradient(90deg, $secondary 67%, $primary 33%);
+}
+
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+    background: #537F82 !important;
+}
+
+
+
+@media (max-width: 580px){
+    .section-home {
+        background: linear-gradient(180deg, $secondary 60%, $primary 40%);
+    }
+
+   
+    .flat-button{
+        position: absolute;
+        z-index: 9999;
+        top: 2em;
+        right: 2em;
+        cursor: pointer;
+    }
+
+    .svg_menu{
+        fill:$primary;
+    }
+
+
+    .section-proyects{
+       padding-left: 1.5em;
+       padding-right: 1.5em;
+    }
+    
+    .contenedor-nav{
+        top: 2em;
+    }
+    .flat-button{
+        margin-right: 1em;
+        top: .9em;
+    }
+    .logo{
+        margin-left: 2em;
+        margin-top: .4em;
+    }
+    .jonaxmc{
+        width: 10em;
+    }
+    
+    
+
+}
+

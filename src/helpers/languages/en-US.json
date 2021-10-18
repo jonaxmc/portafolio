@@ -1,0 +1,36 @@
+{
+    "home.subtitle":"Computer Science Engineering",
+
+    "abaout.abaout-me":"Abaout Me",
+    "abaout.hobbies":"Hobbies",
+    "abaout.photography":"Photography",
+    "abaout.music":"Listen to music",
+    "abaout.friends":"To travel",
+    "abaout.soccer":"Soccer",
+    "abaout.design":"Graphic design",
+    "abaout.abaout-me-description":"I am passionate about technology; I consider myself a creative person and determined to fulfill the objectives that I set for myself. My specialty is software development in which I like to be very detailed and self-taught every day. On the other hand, I am fascinated by the world of artificial intelligence and I have knowledge of Machine Learning. Currently I continue to train and learn new technologies. Because if I do not understand something I ask, if I do not know about the subject I investigate, but I always put all my commitment in what I do to offer quality projects.",
+
+    "skills.title":"Skills",
+    "skills.development":"Development",
+    "skills.frameworks":"Frameworks/Library",
+    "skills.database":"Database",
+
+    "proyects.title":"Proyects",
+    "proyects.song-recommender":"Automatic title generator system based on song lyrics extractions using artificial intelligence algorithms.",
+    "proyects.journal-app":"Application that allows you to manage activities and notes that we carry out daily.",
+    "proyects.calendar-app":"Application that allows you to save and manage events within a calendar.",
+    "proyects.chat-app":"Real-time chat application with authentication by JWT and using WebSockets.",
+    "proyects.technology":"Used technology:",
+    "proyects.show-more":"Show more",
+    "proyects.code":"Code",
+    "proyects.website": "Web Site",
+    
+    "modal.proyects":"My works",
+    "modal.certificates":"Certificates",
+    "modal.hello":"SAY HELLO",
+    "contact.send-message":"Send me a message!",
+    "contact.description":"Got a question or proposal, or just want to say hello? Go ahead.",
+    "contact.button":"DO IT!"
+
+
+}

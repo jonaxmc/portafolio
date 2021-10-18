@@ -1,0 +1,34 @@
+{
+    "home.subtitle":"Ingeniero en Ciencias de la Computación",
+
+    "abaout.abaout-me":"Sobre mí",
+    "abaout.hobbies":"Pasatiempos",
+    "abaout.photography":"Fotografía",
+    "abaout.music":"Escuchar música",
+    "abaout.friends":"Viajar",
+    "abaout.soccer":"Fútbol",
+    "abaout.design":"Diseño gráfico",
+    "abaout.abaout-me-description":"Apasionado por la tecnología, me considero una persona creativa y decidido a cumplir con los objetivos que me planteo. Mi especialidad es el desarrollo de software en el cual me gusta ser muy detallista y autodidacta cada día. Por otra parte, me fascina el mundo de la inteligencia artificial y tengo conocimientos de Machine Learning. Actualmente sigo capacitándome y aprendiendo nuevas tecnologías. Porque si no entiendo algo pregunto, si no sé del tema investigo, pero siempre pongo todo mi compromiso en lo que hago para ofrecer proyectos de calidad.",
+
+    "skills.title":"Habilidades",
+    "skills.development":"Desarrollo",
+    "skills.frameworks":"Frameworks/Librerías",
+    "skills.database":"Base de Datos",
+
+    "proyects.title":"Proyectos",
+    "proyects.song-recommender":"Sistema generador automático de títulos basado en extracciones de letras de canciones utilizando algoritmos de inteligencia artificial.",
+    "proyects.journal-app":"Aplicación que permite gestionar actividades y notas que realizamos diariamente.",
+    "proyects.calendar-app":"Aplicación que permite guardar y gestionar eventos dentro de un calendario.",
+    "proyects.chat-app":"Aplicación de chat en tiempo real con autenticación por JWT y utilizando WebSockets.",
+    "proyects.technology":"Tecnologías utilizadas:",
+    "proyects.show-more":"Ver más",
+    "proyects.code":"Código",
+    "proyects.website": "Sitio Web",
+
+    "modal.proyects":"Mis proyectos",
+    "modal.certificates":"Certificados",
+    "modal.hello":"CONTÁCTAME",
+    "contact.send-message":"Envíame un mensaje!",
+    "contact.description":"Tengo una pregunta o propuesta, o simplemente quiero saludar? Adelante.",
+    "contact.button":"HAZLO"
+}

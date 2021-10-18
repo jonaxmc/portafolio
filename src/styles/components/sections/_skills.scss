@@ -1,0 +1,182 @@
+
+.contenedor-habilidades{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+.tarjetas{
+    // background: red;
+    width: 70vw;
+}
+
+.skill-subtitle{
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: $green;
+    font-size: 1.3em;
+}
+.skill-icon{
+    text-align: center;
+    margin-top: 3em;
+    height: 60px;
+}
+
+.lista ul{
+    text-align: center;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+.svg{
+    height: 100%;
+}
+
+.img-svg{
+    width: 6em;
+    position: absolute;
+    z-index: -2;
+  
+}
+.svg-circle{
+    top: -4.5em;
+    right: -4.5em;
+    width: 10em;
+}
+
+.puntos{
+    position: absolute;
+    width: 50px;
+    left: 1.5em;
+    bottom: 2em;
+}
+
+.title h1{
+    color: #818F91;
+}
+
+
+.flechas{
+    position: absolute;
+    width: 20em;
+    bottom: 5em;
+    left: 40vw;
+}
+
+.lineas{
+    position: absolute;
+    width: 10em;
+    bottom: 1px;
+    right: 1em;
+}
+
+
+
+// .skills-contenedor{
+//     // background: yellow;
+//     // height: 100vh;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     gap: 3em;
+// }
+
+
+.gradient {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gradient.blue {
+    position: absolute;
+    width: 407px;
+    height: 503px;
+    left: -70px;
+    top: -5em;
+    background: rgba(109, 244, 244, 0.15);
+    filter: blur(80px);
+}
+
+.gradient.green {
+    position: absolute;
+    width: 407px;
+    height: 503px;
+    top: -5em;
+    right: -70px;
+    background: rgb(109, 244, 187,0.15);
+    filter: blur(80px);
+}
+
+
+
+
+@media (max-width: 580px){
+
+    .tarjetas{
+        // background: red;
+        width: 75vw;
+    }
+   .contenedor-habilidades{
+       padding-bottom: 4em;
+       padding-top: 2em;
+       background: #E5ECEE;
+   }
+    .column{
+        width: 18em;
+        padding: .5em;
+        background: white;
+        filter: none;
+        backdrop-filter: none;
+        z-index: 5;
+      
+    }
+
+    .column-frameworks{
+        // background: yellow;
+        border: 0;
+        border-top: 3px solid white;
+        border-bottom: 3px solid white;
+    }
+
+    // .title-skills{
+    //     // text-align: center;
+    //     color: $green;
+    //     // position: static;
+    //     margin-top: 2em;
+    //     // top: 5em;
+       
+    // }
+
+    .container-section-skills{
+        margin-top: 2em;
+    }
+    .flechas{
+        display: none;
+    }
+    .lineas{
+        
+        width: 8em;
+     
+    }
+
+    .gradient.blue {
+        display: none;
+    }
+    
+    .gradient.green {
+       display: none;
+    }
+    .svg-circle{
+        display: none;
+    }
+
+}

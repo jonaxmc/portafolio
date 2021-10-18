@@ -1,0 +1,71 @@
+.works{
+    overflow: auto;
+}
+
+.work-tarjetas{
+    width: 75vw;
+}
+
+.work-card{
+    border-radius: 0;
+}
+
+.contenedor-title{
+    height: auto;
+    margin-top: 10em;
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.ft-works{
+    border: 0; 
+}
+
+.card-link{
+    text-decoration: none;
+}
+
+
+.rutas{
+    padding-left: 5.6%;
+    padding-bottom: 3%;
+}
+
+.img-works{
+    background: #EEF3F4;
+    // border-radius: 20px 20px 0px 0px;
+    height: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-works{
+    // background: red;
+    // width: 100vw;
+    font-size: 2em;
+    color: #474747;
+    justify-content: center;
+}
+
+.contenedor-work{
+    // background: #F3F6F6;
+    // background: #dbeeec80;
+    box-sizing: border-box;
+    padding-bottom: 5em;
+    // height: 100vh;
+}
+
+.contenedor-tarjetas-work{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    // background: white;
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+    // z-index: 1;
+    
+    // align-items: center;
+}
