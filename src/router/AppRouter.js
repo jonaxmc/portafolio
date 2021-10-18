@@ -2,6 +2,7 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
+    HashRouter,
 } from "react-router-dom";
 
 import React from 'react'
@@ -14,7 +15,7 @@ import { UiModal } from "../components/ui/UiModal";
 export const AppRouter = () => {
     return (
         <div>
-            <Router>
+            <HashRouter>
                 
                 <div className="interno">
                 <UiModal/>
@@ -32,7 +33,7 @@ export const AppRouter = () => {
                     </Switch>
                 </div>
                 
-            </Router>
+            </HashRouter>
         </div>
 
     )
