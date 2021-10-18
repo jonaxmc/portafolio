@@ -15,36 +15,36 @@ export const ContactSection = () => {
                 <FormattedMessage id="contact.description" defaultMessage="" />
             </div>
 
-            <Link to={{ pathname: "mailto:jonathan.mc.96@hotmail.com" }} target="_blank" className="link">
+            <a href="mailto:jonathan.mc.96@hotmail.com" target="_blank" className="link">
 
                 <div className="boton-contact"><FormattedMessage id="contact.button" defaultMessage="" /></div>
-            </Link>
+            </a>
 
             <div className="footer-contact">
 
                 <div className="text-footer">
                     <div>
-                        <Link to="/work" className="link-footer">
+                        <a href="#/work" className="link-footer">
                             <FormattedMessage id="modal.proyects" defaultMessage="" />
-                        </Link>
+                        </a>
                     </div>
 
                     <div>
-                        <Link to="/certificates" className="link-footer">
+                        <a href="#/certificates" className="link-footer">
                             <FormattedMessage id="modal.certificates" defaultMessage="" />
-                        </Link>
+                        </a>
                     </div>
 
                 </div>
 
                 <div className="icons-contact">
-                    <Link to={{ pathname: "mailto:jonathan.mc.96@hotmail.com" }} target="_blank"><i className="fas fa-envelope"></i></Link>
-                    <Link to={{ pathname: "https://t.me/jonaxmc" }} target="_blank" className="link">
+                    <a href="mailto:jonathan.mc.96@hotmail.com" target="_blank"><i className="fas fa-envelope"></i></a>
+                    <a href="https://t.me/jonaxmc"target="_blank" className="link">
                         <i className="fab fa-telegram"></i>
-                    </Link>
-                    <Link to={{ pathname: "https://www.linkedin.com/in/jonaxmc/" }} target="_blank" className="link">
-                        <i className="fab fa-linkedin"></i>
-                    </Link>
+                    </a>
+               
+                  <a href="https://www.linkedin.com/in/jonaxmc/" target="_blank"><i className="fab fa-linkedin"></i></a>
+                 
                 </div>
 
 

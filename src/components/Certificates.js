@@ -24,17 +24,17 @@ export const Certificates = () => {
                             <div className="card">
                                 <div className="certificate-image">
                                     <img src="https://udemy-certificate.s3.amazonaws.com/image/UC-88c03068-c890-485e-a819-8183a27ad567.jpg?v=1631832197000" className="card-img-top" alt="..." />
-                                    <Link to={{pathname:"https://www.udemy.com/certificate/UC-88c03068-c890-485e-a819-8183a27ad567/"}} target="_blank">
+                                    <a href="https://www.udemy.com/certificate/UC-88c03068-c890-485e-a819-8183a27ad567/" target="_blank">
                                         <div className="middle">
                                             <div className="text">Ver</div>
                                         </div>
-                                    </Link>
+                                    </a>
 
                                 </div>
                                 <div className="card-body">
-                                <Link className="link" to={{pathname:"https://www.udemy.com/certificate/UC-88c03068-c890-485e-a819-8183a27ad567/"}} target="_blank">
+                                <a className="link" href="https://www.udemy.com/certificate/UC-88c03068-c890-485e-a819-8183a27ad567/" target="_blank">
                                         <h5 className="card-title">React: De cero a experto ( Hooks y MERN )</h5>
-                                    </Link>
+                                    </a>
                                     <small className="text-muted">16/09/2021</small>
                                 </div>
                             </div>

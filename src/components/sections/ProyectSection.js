@@ -5,7 +5,7 @@ import calendar from '../../assets/img/calendar.png'
 import chat from '../../assets/img/chat.png'
 
 import { FormattedMessage } from 'react-intl'
-import { Link } from 'react-router-dom'
+import { a } from 'react-router-dom'
 
 export const ProyectSection = () => {
 
@@ -42,20 +42,20 @@ export const ProyectSection = () => {
                                 </div>
                                 <div className="card-footer footer1 ft-proyects">
                                     <small className="text-muted">
-                                        <Link className="link" to={{ pathname: "https://github.com/jonaxmc/react-app-song" }} target="_blank">
+                                        <a className="link" href="https://github.com/jonaxmc/react-app-song" target="_blank">
                                             <div className="proyects-icons-footer proyects-footer-color-1">
                                                 <h2 className="text-code1"><FormattedMessage id="proyects.code" defaultMessage="" /></h2>
                                                 <i className="fas fa-link"></i>
                                             </div>
-                                        </Link>
+                                        </a>
                                     </small>
                                     <small className="text-muted">
-                                        <Link className="link" to={{ pathname: "https://jonaxmc.github.io/react-app-song/" }} target="_blank">
+                                        <a className="link" href="https://jonaxmc.github.io/react-app-song/" target="_blank">
                                             <div className="proyects-icons-footer proyects-footer-color-1">
                                                 <h2 className="text-code1"><FormattedMessage id="proyects.website" defaultMessage="" /></h2>
                                                 <i className="fas fa-external-link-alt"></i>
                                             </div>
-                                        </Link>
+                                        </a>
                                     </small>
                                 </div>
                             </div>
@@ -79,22 +79,22 @@ export const ProyectSection = () => {
                                 </div>
                                 <div className="card-footer footer2 ft-proyects">
                                     <small className="text-muted">
-                                        <Link className="link" to={{pathname:"https://github.com/jonaxmc/Journal-app"}} target="_blank">
+                                        <a className="link" href="https://github.com/jonaxmc/Journal-app" target="_blank">
                                         <div className="proyects-icons-footer proyects-footer-color-2">
                                             <h2><FormattedMessage id="proyects.code" defaultMessage="" /></h2>
                                             <i className="fas fa-link"></i>
                                         </div>
-                                        </Link>
+                                        </a>
                                         
                                     </small>
                                     <small className="text-muted">
-                                        <Link className="link" to={{pathname:"https://jonaxmc.github.io/Journal-app/"}} target="_blank">
+                                        <a className="link" href="https://jonaxmc.github.io/Journal-app/" target="_blank">
                                         <div className="proyects-icons-footer proyects-footer-color-2">
                                             <h2><FormattedMessage id="proyects.website" defaultMessage="" /></h2>
                                             <i className="fas fa-external-link-alt"></i>
                                         </div>
                                         
-                                        </Link>
+                                        </a>
                                     </small>
                                 </div>
                             </div>
@@ -117,22 +117,22 @@ export const ProyectSection = () => {
                                     <small className="text-muted">React - Redux - Node JS - MongoDB </small>
                                 </div>
                                 <div className="card-footer footer3 ft-proyects">
-                                    <Link className="link" to={{ pathname: "https://github.com/jonaxmc/Calendar-app-frontend" }} target="_blank">
+                                    <a className="link" href="https://github.com/jonaxmc/Calendar-app-frontend" target="_blank">
                                         <small className="text-muted">
                                             <div className="proyects-icons-footer proyects-footer-color-3">
                                                 <h2><FormattedMessage id="proyects.code" defaultMessage="" /></h2>
                                                 <i className="fas fa-link"></i>
                                             </div>
                                         </small>
-                                    </Link>
-                                    <Link className="link" to={{ pathname: "https://mern-calendar-jona.herokuapp.com/" }} target="_blank">
+                                    </a>
+                                    <a className="link" href="https://mern-calendar-jona.herokuapp.com/" target="_blank">
                                         <small className="text-muted">
                                             <div className="proyects-icons-footer proyects-footer-color-3">
                                                 <h2><FormattedMessage id="proyects.website" defaultMessage="" /></h2>
                                                 <i className="fas fa-external-link-alt"></i>
                                             </div>
                                         </small>
-                                    </Link>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -155,14 +155,14 @@ export const ProyectSection = () => {
                                     <small className="text-muted">Flutter - Socket.io - MongoDB - JWT </small>
                                 </div>
                                 <div className="card-footer footer4 ft-proyects">
-                                    <Link className="link" to={{pathname:"https://github.com/jonaxmc/flutter-mensajes"}} target="_blank">
+                                    <a className="link" href="https://github.com/jonaxmc/flutter-mensajes" target="_blank">
                                     <small className="text-muted">
                                         <div className="proyects-icons-footer proyects-footer-color-4">
                                             <h2><FormattedMessage id="proyects.code" defaultMessage="" /></h2>
                                             <i className="fas fa-link"></i>
                                         </div>
                                     </small>
-                                    </Link>
+                                    </a>
                                     
                                 </div>
                             </div>
@@ -175,12 +175,12 @@ export const ProyectSection = () => {
 
 
             {/* <div className="container ver-mas">
-                <Link to="/work" target="_blank">
+                <a to="/work" target="_blank">
                     <button type="button" className="btn btn-outline-success" >
                         <FormattedMessage id="proyects.show-more" defaultMessage="" />
                     </button>
 
-                </Link>
+                </a>
             </div> */}
         </div>
     )

@@ -9,7 +9,7 @@ import chat from '../assets/img/chat.png'
 import { UiModal } from './ui/UiModal';
 
 import '../styles/components/sections/_certificates.scss';
-import { Link } from 'react-router-dom';
+import { a } from 'react-router-dom';
 
 export const Works = () => {
 
@@ -44,8 +44,8 @@ export const Works = () => {
 
                                 </div>
                                 <div className="rutas">
-                                    <Link className="card-link" to={{ pathname: "https://github.com/jonaxmc/react-app-song" }} target="_blank"><FormattedMessage id="proyects.code" defaultMessage="" /></Link>
-                                    <Link className="card-link" to={{ pathname: "https://jonaxmc.github.io/react-app-song/" }} target="_blank"><FormattedMessage id="proyects.website" defaultMessage="" /></Link>
+                                    <a className="card-link" href="https://github.com/jonaxmc/react-app-song" target="_blank"><FormattedMessage id="proyects.code" defaultMessage="" /></a>
+                                    <a className="card-link" href="https://jonaxmc.github.io/react-app-song/" target="_blank"><FormattedMessage id="proyects.website" defaultMessage="" /></a>
                                 </div>
                                 <div className="card-footer bg-transparent ft-works">
                                     <small className="text-muted">React - Redux - Python </small>
@@ -69,8 +69,8 @@ export const Works = () => {
 
                                 </div>
                                 <div className="rutas">
-                                    <Link className="card-link" to={{pathname:"https://github.com/jonaxmc/Journal-app"}} target="_blank"><FormattedMessage id="proyects.code" defaultMessage="" /></Link>
-                                    <Link className="card-link" to={{pathname:"https://jonaxmc.github.io/Journal-app/"}} target="_blank"><FormattedMessage id="proyects.website" defaultMessage="" /></Link>
+                                    <a className="card-link" href="https://github.com/jonaxmc/Journal-app" target="_blank"><FormattedMessage id="proyects.code" defaultMessage="" /></a>
+                                    <a className="card-link" href="https://jonaxmc.github.io/Journal-app/" target="_blank"><FormattedMessage id="proyects.website" defaultMessage="" /></a>
                                 </div>
 
                                 <div className="card-footer bg-transparent ft-works">
@@ -94,8 +94,8 @@ export const Works = () => {
                                         </p>
                                 </div>
                                 <div className="rutas">
-                                    <Link className="card-link" to={{ pathname: "https://github.com/jonaxmc/Calendar-app-frontend" }} target="_blank"><FormattedMessage id="proyects.code" defaultMessage="" /></Link>
-                                    <Link className="card-link" to={{ pathname: "https://mern-calendar-jona.herokuapp.com/" }} target="_blank"><FormattedMessage id="proyects.website" defaultMessage="" /></Link>
+                                    <a className="card-link" href="https://github.com/jonaxmc/Calendar-app-frontend" target="_blank"><FormattedMessage id="proyects.code" defaultMessage="" /></a>
+                                    <a className="card-link" href="https://mern-calendar-jona.herokuapp.com/" target="_blank"><FormattedMessage id="proyects.website" defaultMessage="" /></a>
                                 </div>
                                 <div className="card-footer bg-transparent ft-works">
                                     <small className="text-muted">React - Redux - Node JS - MongoDB </small>
@@ -118,7 +118,7 @@ export const Works = () => {
                                         </p>
                                 </div>
                                 <div className="rutas">
-                                    <Link className="card-link" to={{pathname:"https://github.com/jonaxmc/flutter-mensajes"}} target="_blank"><FormattedMessage id="proyects.code" defaultMessage="" /></Link>
+                                    <a className="card-link" href="https://github.com/jonaxmc/flutter-mensajes" target="_blank"><FormattedMessage id="proyects.code" defaultMessage="" /></a>
                                 </div>
                                 
                                 <div className="card-footer bg-transparent ft-works">

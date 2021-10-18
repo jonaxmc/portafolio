@@ -70,7 +70,10 @@ export const MenuModal = () => {
                         <div style={{ color: '#BFCFD0' }}>
                             <FormattedMessage id="modal.hello" defaultMessage="" />
                         </div>
-                        <div>jonathan.mc.96@hotmail.com</div>
+                        <div>
+                            <a href="mailto:jonathan.mc.96@hotmail.com" target="_blank" className="link">jonathan.mc.96@hotmail.com</a>
+                            
+                            </div>
                         <div>
                             <Link to={{pathname:"https://t.me/jonaxmc"}} target="_blank" className="link">
                                 t.me/jonaxmc
