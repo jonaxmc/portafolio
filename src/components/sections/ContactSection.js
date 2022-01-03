@@ -1,6 +1,5 @@
 import React from 'react'
 import { FormattedMessage } from 'react-intl'
-import { Link } from 'react-router-dom'
 
 
 export const ContactSection = () => {
@@ -15,7 +14,7 @@ export const ContactSection = () => {
                 <FormattedMessage id="contact.description" defaultMessage="" />
             </div>
 
-            <a href="mailto:jonathan.mc.96@hotmail.com" target="_blank" className="link">
+            <a href="mailto:jonathan.mc.96@hotmail.com" target="_blank" className="link" rel="noreferrer">
 
                 <div className="boton-contact"><FormattedMessage id="contact.button" defaultMessage="" /></div>
             </a>
@@ -38,12 +37,12 @@ export const ContactSection = () => {
                 </div>
 
                 <div className="icons-contact">
-                    <a href="mailto:jonathan.mc.96@hotmail.com" target="_blank"><i className="fas fa-envelope"></i></a>
-                    <a href="https://t.me/jonaxmc"target="_blank" className="link">
+                    <a href="mailto:jonathan.mc.96@hotmail.com" target="_blank" rel="noreferrer"><i className="fas fa-envelope"></i></a>
+                    <a href="https://t.me/jonaxmc"target="_blank" className="link" rel="noreferrer">
                         <i className="fab fa-telegram"></i>
                     </a>
                
-                  <a href="https://www.linkedin.com/in/jonaxmc/" target="_blank"><i className="fab fa-linkedin"></i></a>
+                  <a href="https://www.linkedin.com/in/jonaxmc/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin"></i></a>
                  
                 </div>
 

@@ -42,7 +42,7 @@ export const ProyectSection = () => {
                                 </div>
                                 <div className="card-footer footer1 ft-proyects">
                                     <small className="text-muted">
-                                        <a className="link" href="https://github.com/jonaxmc/react-app-song" target="_blank">
+                                        <a className="link" href="https://github.com/jonaxmc/react-app-song" target="_blank" rel="noreferrer">
                                             <div className="proyects-icons-footer proyects-footer-color-1">
                                                 <h2 className="text-code1"><FormattedMessage id="proyects.code" defaultMessage="" /></h2>
                                                 <i className="fas fa-link"></i>
@@ -50,7 +50,7 @@ export const ProyectSection = () => {
                                         </a>
                                     </small>
                                     <small className="text-muted">
-                                        <a className="link" href="https://jonaxmc.github.io/react-app-song/" target="_blank">
+                                        <a className="link" href="https://jonaxmc.github.io/react-app-song/" target="_blank" rel="noreferrer">
                                             <div className="proyects-icons-footer proyects-footer-color-1">
                                                 <h2 className="text-code1"><FormattedMessage id="proyects.website" defaultMessage="" /></h2>
                                                 <i className="fas fa-external-link-alt"></i>
@@ -79,7 +79,7 @@ export const ProyectSection = () => {
                                 </div>
                                 <div className="card-footer footer2 ft-proyects">
                                     <small className="text-muted">
-                                        <a className="link" href="https://github.com/jonaxmc/Journal-app" target="_blank">
+                                        <a className="link" href="https://github.com/jonaxmc/Journal-app" target="_blank" rel="noreferrer">
                                         <div className="proyects-icons-footer proyects-footer-color-2">
                                             <h2><FormattedMessage id="proyects.code" defaultMessage="" /></h2>
                                             <i className="fas fa-link"></i>
@@ -88,7 +88,7 @@ export const ProyectSection = () => {
                                         
                                     </small>
                                     <small className="text-muted">
-                                        <a className="link" href="https://jonaxmc.github.io/Journal-app/" target="_blank">
+                                        <a className="link" href="https://jonaxmc.github.io/Journal-app/" target="_blank" rel="noreferrer">
                                         <div className="proyects-icons-footer proyects-footer-color-2">
                                             <h2><FormattedMessage id="proyects.website" defaultMessage="" /></h2>
                                             <i className="fas fa-external-link-alt"></i>
@@ -117,7 +117,7 @@ export const ProyectSection = () => {
                                     <small className="text-muted">React - Redux - Node JS - MongoDB </small>
                                 </div>
                                 <div className="card-footer footer3 ft-proyects">
-                                    <a className="link" href="https://github.com/jonaxmc/Calendar-app-frontend" target="_blank">
+                                    <a className="link" href="https://github.com/jonaxmc/Calendar-app-frontend" target="_blank" rel="noreferrer">
                                         <small className="text-muted">
                                             <div className="proyects-icons-footer proyects-footer-color-3">
                                                 <h2><FormattedMessage id="proyects.code" defaultMessage="" /></h2>
@@ -125,7 +125,7 @@ export const ProyectSection = () => {
                                             </div>
                                         </small>
                                     </a>
-                                    <a className="link" href="https://mern-calendar-jona.herokuapp.com/" target="_blank">
+                                    <a className="link" href="https://mern-calendar-jona.herokuapp.com/" target="_blank" rel="noreferrer">
                                         <small className="text-muted">
                                             <div className="proyects-icons-footer proyects-footer-color-3">
                                                 <h2><FormattedMessage id="proyects.website" defaultMessage="" /></h2>
@@ -155,7 +155,7 @@ export const ProyectSection = () => {
                                     <small className="text-muted">Flutter - Socket.io - MongoDB - JWT </small>
                                 </div>
                                 <div className="card-footer footer4 ft-proyects">
-                                    <a className="link" href="https://github.com/jonaxmc/flutter-mensajes" target="_blank">
+                                    <a className="link" href="https://github.com/jonaxmc/flutter-mensajes" target="_blank" rel="noreferrer">
                                     <small className="text-muted">
                                         <div className="proyects-icons-footer proyects-footer-color-4">
                                             <h2><FormattedMessage id="proyects.code" defaultMessage="" /></h2>

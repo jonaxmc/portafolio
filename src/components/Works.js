@@ -44,8 +44,8 @@ export const Works = () => {
 
                                 </div>
                                 <div className="rutas">
-                                    <a className="card-link" href="https://github.com/jonaxmc/react-app-song" target="_blank"><FormattedMessage id="proyects.code" defaultMessage="" /></a>
-                                    <a className="card-link" href="https://jonaxmc.github.io/react-app-song/" target="_blank"><FormattedMessage id="proyects.website" defaultMessage="" /></a>
+                                    <a className="card-link" href="https://github.com/jonaxmc/react-app-song" target="_blank" rel="noreferrer"><FormattedMessage id="proyects.code" defaultMessage="" /></a>
+                                    <a className="card-link" href="https://jonaxmc.github.io/react-app-song/" target="_blank" rel="noreferrer"><FormattedMessage id="proyects.website" defaultMessage="" /></a>
                                 </div>
                                 <div className="card-footer bg-transparent ft-works">
                                     <small className="text-muted">React - Redux - Python </small>
@@ -69,8 +69,8 @@ export const Works = () => {
 
                                 </div>
                                 <div className="rutas">
-                                    <a className="card-link" href="https://github.com/jonaxmc/Journal-app" target="_blank"><FormattedMessage id="proyects.code" defaultMessage="" /></a>
-                                    <a className="card-link" href="https://jonaxmc.github.io/Journal-app/" target="_blank"><FormattedMessage id="proyects.website" defaultMessage="" /></a>
+                                    <a className="card-link" href="https://github.com/jonaxmc/Journal-app" target="_blank" rel="noreferrer"><FormattedMessage id="proyects.code" defaultMessage="" /></a>
+                                    <a className="card-link" href="https://jonaxmc.github.io/Journal-app/" target="_blank" rel="noreferrer"><FormattedMessage id="proyects.website" defaultMessage="" /></a>
                                 </div>
 
                                 <div className="card-footer bg-transparent ft-works">
@@ -94,8 +94,8 @@ export const Works = () => {
                                         </p>
                                 </div>
                                 <div className="rutas">
-                                    <a className="card-link" href="https://github.com/jonaxmc/Calendar-app-frontend" target="_blank"><FormattedMessage id="proyects.code" defaultMessage="" /></a>
-                                    <a className="card-link" href="https://mern-calendar-jona.herokuapp.com/" target="_blank"><FormattedMessage id="proyects.website" defaultMessage="" /></a>
+                                    <a className="card-link" href="https://github.com/jonaxmc/Calendar-app-frontend" target="_blank" rel="noreferrer"><FormattedMessage id="proyects.code" defaultMessage="" /></a>
+                                    <a className="card-link" href="https://mern-calendar-jona.herokuapp.com/" target="_blank" rel="noreferrer"><FormattedMessage id="proyects.website" defaultMessage="" /></a>
                                 </div>
                                 <div className="card-footer bg-transparent ft-works">
                                     <small className="text-muted">React - Redux - Node JS - MongoDB </small>
@@ -118,7 +118,7 @@ export const Works = () => {
                                         </p>
                                 </div>
                                 <div className="rutas">
-                                    <a className="card-link" href="https://github.com/jonaxmc/flutter-mensajes" target="_blank"><FormattedMessage id="proyects.code" defaultMessage="" /></a>
+                                    <a className="card-link" href="https://github.com/jonaxmc/flutter-mensajes" target="_blank" rel="noreferrer"><FormattedMessage id="proyects.code" defaultMessage="" /></a>
                                 </div>
                                 
                                 <div className="card-footer bg-transparent ft-works">
