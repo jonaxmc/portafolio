@@ -15,7 +15,7 @@ export const Fullpage = (dispatch) => (
     //fullpage options
     // anchors={anchors}
     // navigationTooltips={anchors}
-
+    licenseKey= '2xmGhXS^d3'
     navigation //Mostrar los indicadores
     // autoScrolling={true} //OJOOO
     scrollBar={false} //Ocultar el scrollbar

@@ -8,7 +8,7 @@ export const HomeScreen = () => {
 
 
     return (
+        
         <Fullpage />
-
     )
 }

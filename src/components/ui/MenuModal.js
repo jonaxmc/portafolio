@@ -71,7 +71,7 @@ export const MenuModal = () => {
                             <FormattedMessage id="modal.hello" defaultMessage="" />
                         </div>
                         <div>
-                            <a href="mailto:jonathan.mc.96@hotmail.com" target="_blank" className="link">jonathan.mc.96@hotmail.com</a>
+                            <a href="mailto:jonathan.mc.96@hotmail.com" target="_blank" className="link" rel="noreferrer">jonathan.mc.96@hotmail.com</a>
                             
                             </div>
                         <div>

@@ -1,5 +1,4 @@
 import {
-    BrowserRouter as Router,
     Switch,
     Route,
     HashRouter,
@@ -18,6 +17,7 @@ export const AppRouter = () => {
             <HashRouter>
                 
                 <div className="interno">
+                    
                 <UiModal/>
                     <Switch>
                         <Route path='/' exact component={HomeScreen} />

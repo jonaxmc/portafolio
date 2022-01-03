@@ -1,6 +1,7 @@
 import { types } from "../types/types";
 
 const lan = localStorage.getItem('language') || 'es-MX'
+
 const initialState = {
     modalOpen: false,
     language: lan,
@@ -34,6 +35,7 @@ export const uiReducer = (state = initialState, action) => {
                 ...state,
                 page: 2
             }
+       
 
 
         default:

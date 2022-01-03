@@ -21,7 +21,6 @@ export const PortfolioApp = () => {
    
 const [message, setMessage] = useState(messagesSpanish)
 
-//    console.log(messages)
 
     
     useEffect(() => {
@@ -46,6 +45,7 @@ const [message, setMessage] = useState(messagesSpanish)
     return (
         <IntlProvider messages={message} locale={locale}>
             {/* <h1 style={{zIndex:'9999', position:'absolute'}}>Hola mundo</h1>   */}
+            {/* <HamburguerButton/> */}
             <AppRouter />
             
         </IntlProvider>
